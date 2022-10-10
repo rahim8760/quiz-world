@@ -1,0 +1,22 @@
+.header a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 15px;
+    background-color: rgb(209, 188, 188);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.header{
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.side_logo{
+    margin-left: 20px;
+}

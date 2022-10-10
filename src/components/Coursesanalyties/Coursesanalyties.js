@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../Header/Header';
 import './Coursesanalyties.css'
 
 const Coursesanalyties = () => {
