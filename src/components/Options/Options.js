@@ -1,9 +1,9 @@
 import React from 'react';
+import './Options.css'
 
 const Options = ({qizoption}) => {
-    console.log(qizoption);
     return (
-        <div>
+        <div className='option'>
             <h4>{qizoption}</h4>
         </div>
     );

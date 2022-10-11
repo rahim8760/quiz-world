@@ -5,10 +5,11 @@ import './Course.css'
 const Course = ({course}) => {
     const {id ,name, logo}=course;
     return (
-        <div>
+        <div className='course_container'>
+
             <img src={logo} alt="" />
             <h1>{name}</h1>
-            <Link to={`/course/${id}`}>start Quiz</Link>
+            <Link className='quiz_button' to={`/course/${id}`}>start Quiz</Link>
         </div>
     );
 };

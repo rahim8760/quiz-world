@@ -1,0 +1,14 @@
+.course_container{
+    background-color: rgb(195, 248, 217);
+    box-shadow: 5px 5px beige;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.quiz_button{
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: beige;
+    border-radius: 10px;
+
+}
