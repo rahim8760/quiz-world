@@ -16,6 +16,13 @@ function App() {
         },
         element: <Home></Home>
       },
+      {
+        path:'/',
+        loader:async()=>{
+          return fetch('https://openapi.programming-hero.com/api/quiz');
+        },
+        element: <Home></Home>
+      },
       {path:'coursesanalyties',
       loader:async()=>{
         return fetch('https://openapi.programming-hero.com/api/quiz');

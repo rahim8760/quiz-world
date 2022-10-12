@@ -6,3 +6,8 @@
     border-radius: 15px;
     box-shadow: 5px 10px rgb(239, 233, 233) ;
 }
+.optopn_link{
+    display: grid;
+    grid-template-culamns:1fr 3fr;
+    
+}

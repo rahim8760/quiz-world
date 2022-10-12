@@ -1,10 +1,16 @@
 import React from 'react';
 import './Options.css'
 
-const Options = ({qizoption}) => {
+
+const Options = ({qizoption, rightans }) => {
     return (
         <div className='option'>
-            <h4>{qizoption}</h4>
+            <div className="optopn_link">
+            <label onClick={()=>rightans(qizoption)} htmlFor="option">
+                
+                <p><input name="option" type="radio" />{qizoption}</p>
+            </label>
+            </div>
         </div>
     );
 };
