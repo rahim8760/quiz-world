@@ -2,14 +2,19 @@ import React from 'react';
 import { Toast } from 'react-bootstrap';
 import Options from '../Options/Options';
 import './Question.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Question = ({qizquestion}) => {
     const {correctAnswer, question, options}=qizquestion;
+    const notify = () => toast("This is Right Answer");
+    const rongnotify = () => toast("This is wrong Answer");
     const rightans=(option)=>{
         if(option===correctAnswer){
-            console.log('correct ans');
+            {notify()}
         }else{
-            alert('This is rong answer')
+            
+            {rongnotify()}
         }
     }
     return (
@@ -27,6 +32,7 @@ const Question = ({qizquestion}) => {
                     ></Options>)
                 }
             </div>
+            <ToastContainer />
         </div>
     );
 };

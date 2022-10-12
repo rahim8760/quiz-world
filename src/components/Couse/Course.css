@@ -4,6 +4,11 @@
     padding: 20px;
     margin: 15px;
     border-radius: 15px;
+    margin: auto;
+}
+.course_container img{
+    width: 300px;
+    height: 300px;
 }
 .quiz_button{
     padding: 10px 30px;

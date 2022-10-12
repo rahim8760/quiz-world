@@ -9,7 +9,7 @@ const Quiz = () => {
     const allquestions=useLoaderData();;
     const {name, questions}=allquestions.data;
     return (
-            <div>
+            <div className='quiz_body'>
                 <div className="Quiz_title">
                     <h1>welcome to {name} quiz</h1>
                     <p>Total Question={questions.length}</p>
