@@ -5,6 +5,7 @@ import Coursesanalyties from './components/Coursesanalyties/Coursesanalyties';
 import Blog from './components/Blog/Blog';
 import Main from './pages/Main';
 import Quiz from './components/Quiz/Quiz';
+import Allcourses from './components/Allcourses/Allcourses';
 
 function App() {
   const router =createBrowserRouter([
@@ -15,6 +16,13 @@ function App() {
           return fetch('https://openapi.programming-hero.com/api/quiz');
         },
         element: <Home></Home>
+      },
+      {
+        path:'allcourses',
+        loader:async()=>{
+          return fetch('https://openapi.programming-hero.com/api/quiz');
+        },
+        element: <Allcourses></Allcourses>
       },
       {
         path:'/',

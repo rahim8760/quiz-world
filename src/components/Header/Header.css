@@ -20,7 +20,7 @@
 }
 .side_logo{
     margin-left: 20px;
-}@media only screen and (max-width: 620px) {
+}@media only screen and (max-width: 780px) {
     .header{
         display: flex;
         flex-direction: column;
