@@ -8,15 +8,18 @@ import { useState } from 'react';
 
 const Question = ({qizquestion}) => {
     const {correctAnswer, question, options}=qizquestion;
-    const notify = () => toast("This is Right Answer");
-    const rongnotify = () => toast("This is wrong Answer");
     const [open, setOpen] = useState(true);
+    
+    const rightAnswer = () => toast("This is Right Answer");
+    const wrongAnswer = () => toast("This is wrong Answer");
+    
+    
     const rightans=(option)=>{
         if(option===correctAnswer){
-            {notify()}
+            {rightAnswer()}
         }else{
             
-            {rongnotify()}
+            {wrongAnswer()}
         }
     }
     return (

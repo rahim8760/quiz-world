@@ -7,8 +7,6 @@ import './Coursesanalyties.css'
 const Coursesanalyties = () => {
     const courses=useLoaderData()
     const data=courses.data
-
-    console.log(data)
     
     return (
         <ResponsiveContainer width="100%" height={400}>
