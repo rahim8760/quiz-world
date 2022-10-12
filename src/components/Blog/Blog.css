@@ -1,0 +1,27 @@
+.blog_question{
+    background-color: rgb(236, 244, 167);
+    padding: 20px;
+    width: 70%;
+    margin: 35px auto;
+    border-radius: 25px;
+    border: 2px solid burlywood;
+    box-shadow: 5px 10px bisque;
+}
+.blog_question h2{
+    background-color: rgb(101, 218, 159);
+    padding: 20px;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 25px;
+    border: 2px solid burlywood;
+    box-shadow: 5px 10px  bisque;
+}
+.blog_question p{
+    background-color: rgb(146, 231, 210);
+    padding: 10px;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 25px;
+    border: 2px solid burlywood;
+    box-shadow: 5px 10px  bisque;
+}
